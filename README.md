@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Admin Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was created to showcase the ease of creating a frontend with the use of external libraries and components.
 
-## Available Scripts
+![Dashboard View](public/assets/dashboard.png)
 
-In the project directory, you can run:
+## [Material UI](https://mui.com/)
 
-### `npm start`
+MUI handles most of the stuff you see including the tables and accordians which are MUI `<DataGrid>` and `<Accordion>` components respectively. MUI is a powerhouse of a UI library and you can rest assured that your frontend filtering logic works because DataGrid has that covered.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![MUI DataGrid view](public/assets/mui-datagrid.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![MUI Accordion view](public/assets/mui-accordion.png)
 
-### `npm test`
+## [Formik](https://formik.org/docs/overview)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Formik was used to cut down on the verbosity of forms in React. Formik can handle most of your form needs. Need a schema for validation? Formik combined with [Yup](https://github.com/jquense/yup) can more than get the job done so that you'll have both working and visually appealing validation.
 
-### `npm run build`
+![Formik view](public/assets/formik.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [FullCalendar](https://fullcalendar.io/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+FullCalendar allows for quick calendar creation without the hours to days of work needed to get everything from layout to events to views done in a a fraction of the time that it would take to create one from scratch. The plugins available also let you customize the calendar so that it fits your business specific needs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![alt text](public/assets/fullcalendar.png)
 
-### `npm run eject`
+## [Nivo](https://nivo.rocks/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Nivo handles all data visualization through whatever kind of chart you need. Bar chart? Pie Chart? Stream Chart? Need some lines? Nivo has you covered.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](public/assets/nivo.png)
