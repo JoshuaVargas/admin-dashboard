@@ -1,4 +1,4 @@
-# Admin Panel
+# Admin Dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was created to showcase the ease of creating a frontend with the use of external libraries and components.
 
